@@ -1,7 +1,7 @@
 <h3>Select Country</h3>
 <div class="container">
-  <div >
-    <select name="country" #t (change)="countryChanged(t.value)">
+  <div class="dropdown">
+    <select name="country" id='country' #country (change)="countryChanged(country.value)">
       <option value="" selected disabled>Select Country</option>
       <option value="India">India</option>
       <option value="UK">United Kingdom</option>

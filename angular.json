@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "eventHandling"
+  "defaultProject": "eventHandling",
+  "cli": {
+    "analytics": "8b9e9eb5-a51c-494b-93f5-495015668c8b"
+  }
 }
